@@ -1,0 +1,1 @@
+Welcome to the PHP Design Patterns repository! This repository aims to provide a comprehensive collection of design patterns implemented in PHP. Each pattern includes a detailed explanation and code examples to help you understand and implement these patterns in your projects.
