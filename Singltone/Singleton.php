@@ -5,7 +5,7 @@ private static $instance = null; // Stores the single instance
 public $value; // Public variable to hold data
 
     public static function getInstance() {
-        if (self::$instance === null) { // Check if instance exists
+        if (!self::$instance) { // Check if instance exists
             self::$instance = new self(); // Create instance if not
         }
         return self::$instance;
